@@ -9,7 +9,7 @@ fun main() {
     numberPrinter()
     nameAbbreviator("Viktor", "Mekis", "Bach")
     gradeConverter(90)
-    println(filterWordsByLength(listOf("hej", "med", "dig", "jeg", "hedder", "Viktor"), 5))
+    println(filterWordsByLength(listOf("hej", "jeg", "hedder", "Viktor"), 5))
     val isbn1 = "0471958697"
     val isbn2 = "0-321-14653-0"
     val isbn3 = "877195869x"
